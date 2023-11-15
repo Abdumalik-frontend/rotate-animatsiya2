@@ -1,0 +1,40 @@
+*{
+    margin:0%;
+    padding: 0%;
+    background-color:black;
+    box-sizing: border-box;
+}
+.container{
+    
+    margin-left: 550px;
+    margin-top: 250px;
+height: 200px;
+width: 200px;
+
+    border-radius: 50%;
+    border:5px solid rgb(190, 236, 22);
+    box-shadow: 0px 0px 500px rgb(192, 191, 184);
+  
+}
+
+.text1{
+
+    color: rgb(245, 32, 32);
+    text-shadow: 10px 5px 5px rgb(119, 15, 15); 
+     text-shadow: unset 0px 0px 50px rgb(6, 8, 3); 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border-radius:50% ;
+padding: 75px 45px;
+animation-name:JaxongirUchun ;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+@keyframes JaxongirUchun{
+    0%{
+        transform: rotate(0deg)
+    }
+ 
+    100%{
+        transform: rotate(180deg)
+    }
+}
